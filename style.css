@@ -30,7 +30,7 @@
   }
 
   .navbar-dark .navbar-brand{
-    color: #888c99;
+    color: #FFFFFFFF;
   }
 
   .nav-item {
@@ -40,13 +40,13 @@
   }
 
   .navbar-dark .navbar-nav .nav-item .nav-link:hover {
-    background: #FFDDE2FF;
-    color: #F99FC9FF;
+    background: #888c99;
+    color: #FAEBEFFF;
   }
 
   .main {
     position: relative;
-    background: url(Assets/Images/bokeh-2072271.jpg);
+    background: #C7D3D4FF;
     min-height: 100vh;
     background-size: cover;
     padding: 220px 0 200px;
@@ -76,8 +76,8 @@
   }
 
   .img-container {
-    margin: 10px;
-    padding: 20px;
+    margin-top: 50px;
+    padding: 10px;
   }
 
   .form-group, #contact, .btn, #portfolio, #contact-header {
@@ -88,6 +88,14 @@
     margin: 10px;
     padding: 20px;
     background:#EFEFE8FF
+  }
+
+  .rotateimg90 {
+    -webkit-transform:rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
   }
 
  
