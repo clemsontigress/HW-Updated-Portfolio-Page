@@ -1,0 +1,93 @@
+
+  
+  .portfolioheading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(250, 225, 115);
+    background-color: black;
+  width: 400px;
+  border: 5px solid rgb(153, 153, 151);
+  border-style: outset;
+  padding: 10px;
+  margin: 20px;
+  text-align: center;
+  }
+
+
+  #header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+
+  .navbar {
+    padding: 40px 0; 
+  }
+
+  .navbar-brand {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 40px 
+  }
+
+  .navbar-dark .navbar-brand{
+    color: #888c99;
+  }
+
+  .nav-item {
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+  }
+
+  .navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    background: #FFDDE2FF;
+    color: #F99FC9FF;
+  }
+
+  .main {
+    position: relative;
+    background: url(Assets/Images/bokeh-2072271.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    padding: 220px 0 200px;
+  }
+
+  .jumbotron {
+    background:#EFEFE8FF;
+  }
+
+  .main h2 {
+    margin: 10px;
+    padding: 10px;
+    font-size: 2.6em;
+    color: #888c99;
+    text-transform: uppercase
+  }
+
+  .main p {
+    margin-top: 1em;
+    padding: 10px;
+    font-size: 1em;
+    color: #888c99;
+  }
+
+  .row {
+    flex-grow: inherit;
+  }
+
+  .img-container {
+    margin: 10px;
+    padding: 20px;
+  }
+
+  .form-group, #contact, .btn, #portfolio, #contact-header {
+    color: #888c99
+  }
+
+  .card {
+    margin: 10px;
+    padding: 20px;
+    background:#EFEFE8FF
+  }
+
+ 
